@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #8e44ad, #f39c12);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: rgb(0, 0, 0);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 25px;
+    font-weight: bold;
+}
+.logo {
+    font-weight: bold;
+    color: white;
+}
+.content {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    width: 80%; 
+    margin-top: 100px; 
+}
+.text-section {
+    flex: 1; 
+    max-width: 50%;
+    margin-top: -100px; 
+}
+.text-section h1 {
+    font-size: 7rem;
+    margin-bottom: 20px;
+}
+.text-section p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+.cta-btn {
+    padding: 15px 30px;
+    background: #c0392b;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.circle-container {
+    width: 600px; /* 圓形的直徑 */
+    height: 600px; /* 圓形的直徑 */
+    background: linear-gradient(to right, #ff9a9e, #fad0c4); /* 圓形的背景漸變色 */
+    border-radius: 50%; /* 讓容器變成圓形 */
+    display: flex; /* 使用Flexbox對齊 */
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中 */
+    overflow: hidden; 
+}
+.circle-container img {
+    width: 300px;
+    margin-left: -10px; 
+    height: auto; 
+}
+
+/* Gameplay Overview 核心樣式 */
+.gameplay-overview {
+    width: 100%; /* 設置寬度為100%，填滿整個畫面 */
+    padding: 50px 20px; /* 添加適當的內邊距，避免內容緊貼邊緣 */
+    background-color: #fff; /* 背景設為白色 */
+    color: #333; /* 使用深灰色文字 */
+    text-align: center; /* 文字居中 */
+    box-sizing: border-box; /* 確保內邊距計算在寬度內 */
+    margin-top: 10px;
+}
+
+
+.gameplay-overview h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #c0392b; /* 顯示醒目的標題顏色 */
+}
+
+.gameplay-overview p {
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* 讓內容居中 */
+    gap: 20px; /* 添加間距 */
+}
+
+.feature {
+    width: 250px;
+    text-align: center;
+}
+
+.feature img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.feature h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #8e44ad;
+}
+
+.feature p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Gameplay Overview 核心樣式 */
+.gameplay-hightlight {
+    width: 100%; /* 設置寬度為100%，填滿整個畫面 */
+    padding: 50px 20px; /* 添加適當的內邊距，避免內容緊貼邊緣 */
+    background-color: #fff; /* 背景設為白色 */
+    color: #333; /* 使用深灰色文字 */
+    text-align: center; /* 文字居中 */
+    box-sizing: border-box; /* 確保內邊距計算在寬度內 */
+}
+
+.gameplay-hightlight h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #c0392b; /* 顯示醒目的標題顏色 */
+}
+
+.gameplay-hightlight p{
+    font-size: 25px;
+    margin-bottom: 40px;
+}
